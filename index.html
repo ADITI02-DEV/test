@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aditi | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <nav>
+    <h1>Aditi</h1>
+    <div class="links">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </div>
+    <button class="toggle-btn" onclick="toggleDarkMode()">🌙</button>
+  </nav>
+
+  <!-- Hero -->
+  <header>
+    <h1 class="typewriter">Hi, I'm Aditi 👋</h1>
+    <p class="hero-sub">
+      A passionate <strong>B.Tech student</strong> exploring the world of <strong>technology, problem-solving, and creativity</strong>.  
+      I enjoy building projects, learning new tools, and applying my skills in <strong>coding, robotics, and design</strong>  
+      to create real-world impact.
+    </p>
+    <a href="#projects">View My Work</a>
+  </header>
+
+  <!-- About -->
+  <section id="about">
+    <img src="https://picsum.photos/220" alt="Aditi Profile">
+    <p>
+      I'm Aditi, a curious learner and aspiring developer with a deep love for technology.  
+      Over the years, I have gained hands-on experience in <strong>C Programming, Data Structures & Algorithms, Web Development, Robotics, and Video Editing</strong>.  
+      My journey is fueled by a desire to explore diverse tech fields and bring innovative ideas to life.  
+      Whether it's writing efficient code, designing websites, or working on robotics projects, I thrive on challenges that push me to grow.  
+    </p>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills">
+    <h2>My Skills</h2>
+    <div class="skills">
+      <div class="skill"><h3>C Programming</h3><p>Strong foundation in logic building and programming fundamentals.</p></div>
+      <div class="skill"><h3>DSA</h3><p>Proficient in solving problems using efficient algorithms and data structures.</p></div>
+      <div class="skill"><h3>Web Development</h3><p>Experience building responsive, modern, and user-friendly websites.</p></div>
+      <div class="skill"><h3>Robotics</h3><p>Hands-on with hardware, sensors, and automation projects.</p></div>
+      <div class="skill"><h3>Video Editing</h3><p>Creative editing to tell impactful stories through visuals.</p></div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="projects">
+      <div class="project">
+        <img src="https://picsum.photos/400/200?random=1" alt="Project One">
+        <h3>Robotics Project</h3>
+        <p>Developed a smart robot prototype equipped with sensors and microcontrollers to perform automated tasks.</p>
+        <a href="#">View More</a>
+      </div>
+      <div class="project">
+        <img src="https://picsum.photos/401/200?random=2" alt="Project Two">
+        <h3>Portfolio Website</h3>
+        <p>Designed and developed a personal portfolio to showcase my skills, projects, and achievements.</p>
+        <a href="#">View More</a>
+      </div>
+      <div class="project">
+        <img src="https://picsum.photos/402/200?random=3" alt="Project Three">
+        <h3>DSA Practice Repository</h3>
+        <p>A curated collection of coding problems with optimized solutions, improving problem-solving skills.</p>
+        <a href="#">View More</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea rows="5" placeholder="Your Message"></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+    <div class="contact-info">
+      <p>📞 Phone: <a href="tel:8987681034">8987681034</a></p>
+      <p>💼 <a href="www.linkedin.com/in/aditi-pandey-9b451030b"
+
+" target="_blank">LinkedIn</a> |          🖥️ <a href="https://github.com/ADITI02-DEV" target="_blank">GitHub</a></p>
+
+      <p>📧 Email: <a href="mailto:yourname@example.com">yourname@example.com</a></p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Aditi | Built with ❤️ and Tech</p>
+  </footer>
+
+  <!-- Dark Mode Script -->
+  <script>
+    function toggleDarkMode() {
+      document.body.classList.toggle("dark");
+    }
+  </script>
+</body>
+</html>
